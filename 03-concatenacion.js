@@ -27,5 +27,7 @@ let frase = `hoy ${frase1} en el angulo`;//esta es otra forma en ves de usar los
 console.log(frase);
 document.write(frase);
 
+let nombre = 'mi nombre es "leo messi" y soy el mejor del mundo';//usamos las comillas simples afuera porque queremos usar las comillas dobles dentro del estring, si no usamos la comilla simple no funciona el codigo porque cerras a la mitad el string lo mismo aplica si queremos usar las comillas simples 
+document.write(nombre);
 
  
