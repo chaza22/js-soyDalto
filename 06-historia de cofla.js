@@ -25,6 +25,8 @@ let plataRoberto = prompt("¿cuanta plata tenes?");
 let plataPedro = prompt("¿cuanta plata tenes?");
 let plataCofla = prompt("¿cuanta plata tenes?");
 
+plataCofla = parseInt(plataCofla); //convierte el astring que le damos en un entero
+
 if (plataRoberto >= 0.6 && plataRoberto < 1){
     alert("comprate un el de agua");
     console.log("comprate un elado de agua");
@@ -49,21 +51,27 @@ if (plataRoberto >= 0.6 && plataRoberto < 1){
 
 if (plataCofla >= 0.6 && plataCofla < 1){
     alert("comprate un el de agua");
+    alert("y te sobra" + (plataCofla - 0.6));
     console.log("comprate un elado de agua");
 } else if (plataCofla >= 1 && plataCofla < 1.6) {
     alert("comprate el de crema");
+    alert("y te sobra" + (plataCofla - 1));
     console.log("comprate el de crema");
 } else if (plataCofla >= 1.6 && plataCofla < 1.7) {
     alert("comprate el heladix");
+    alert("y te sobra" + (plataCofla - 1.6));
     console.log("comprate el heladix");
 } else if (plataCofla >= 1.7 && plataCofla < 1.8) {
     alert("compra el heladovich");
+    alert("y te sobra" + (plataCofla - 1.7));
     console.log("compra el heladovich");
 } else if (plataCofla >= 1.8 && plataCofla < 2.9) {
     alert("compra el helardo");
+    alert("y te sobra" + (plataCofla - 1.8));
     console.log("compra el helardo");
 } else if (plataCofla >= 2.9) {
     alert("compra el helado de confites o el de 1/4");
+    alert("y te sobra" + (plataCofla - 2.9));
 } else {
     alert("no te alcanza nada");
     console.log("no te alcanza nada");
@@ -90,4 +98,4 @@ if (plataPedro >= 0.6 && plataPedro < 1){
     alert("no te alcanza nada");
     console.log("no te alcanza nada");
 }
-let vuelto = 
+ 
